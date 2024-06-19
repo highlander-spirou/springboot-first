@@ -1,0 +1,17 @@
+meta {
+  name: create job 1
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8080/jobs
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Job 1"
+  }
+}

@@ -1,7 +1,5 @@
 package com.restapi.FirstRest.job;
 
-import java.util.Objects;
-
 public class Job {
     private Long id;
     private String name;
